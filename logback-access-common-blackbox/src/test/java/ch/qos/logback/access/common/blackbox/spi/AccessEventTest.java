@@ -62,7 +62,9 @@ public class AccessEventTest {
         List<Cookie> cookiesList = ae.getCookies();
         assertEquals(1, cookiesList.size());
         Cookie cookie = new Cookie("testName", "testCookie");
-        assertEquals(cookie, cookiesList.get(0));
+        assertEquals(cookie.getName(), cookiesList.get(0).getName());
+        assertEquals(cookie.getValue(), cookiesList.get(0).getValue());
+        assertEquals(cookie.getVersion(), cookiesList.get(0).getVersion());
     }
 
     @Test

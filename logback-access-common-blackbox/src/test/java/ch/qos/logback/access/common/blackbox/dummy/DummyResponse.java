@@ -179,6 +179,11 @@ public class DummyResponse implements HttpServletResponse {
     }
 
     @Override
+    public void setStatus(int i, String s) {
+
+    }
+
+    @Override
     public void setContentLengthLong(long length) {
         // TODO Auto-generated method stub
     }

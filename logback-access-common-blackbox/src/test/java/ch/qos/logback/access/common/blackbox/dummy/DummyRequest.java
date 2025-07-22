@@ -256,20 +256,20 @@ public class DummyRequest implements HttpServletRequest {
         return null; // To change body of implemented methods use File | Settings | File Templates.
     }
 
-    @Override
-    public String getRequestId() {
-        return null;
-    }
-
-    @Override
-    public String getProtocolRequestId() {
-        return null;
-    }
-
-    @Override
-    public ServletConnection getServletConnection() {
-        return null;
-    }
+//    @Override
+//    public String getRequestId() {
+//        return null;
+//    }
+//
+//    @Override
+//    public String getProtocolRequestId() {
+//        return null;
+//    }
+//
+//    @Override
+//    public ServletConnection getServletConnection() {
+//        return null;
+//    }
 
     public Locale getLocale() {
         return null;
